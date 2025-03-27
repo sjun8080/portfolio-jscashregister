@@ -1,0 +1,49 @@
+h2 {
+  display: block;
+  text-align:center
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background:orange;
+  justify-content: center;
+}
+
+button:hover {
+    background-color: #218838;
+}
+input {
+  background: blue;
+  display: block;
+  margin: 10px auto;
+  background:white;
+  justify-content: center;
+}
+#container {
+    max-width: 400px;
+    margin: auto;
+    padding: 5px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;/* Full viewport height to push to center */
+}
+.register-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduce spacing between elements */
+}
+
+#change-due {
+    margin-top: 5px; /* Reduced margin */
+    font-size: 18px;
+    font-weight: bold;
+}
+#price-input{
+  text-align: center;
+}
+
+#cash{
+  text-align: center;
+}
